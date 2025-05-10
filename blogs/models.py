@@ -67,6 +67,7 @@ class BlogLikeModel(BaseModel):
     class Meta:
         verbose_name = 'Blog tag'
         verbose_name_plural = 'Blog tags'
+<<<<<<< HEAD
 
 
 
@@ -112,3 +113,5 @@ class Product(BaseModel):
     class Meta:
         verbose_name = 'Product'
         verbose_name_plural = 'Products'
+=======
+>>>>>>> 031e4426d2755a8cbeb24e504ca6808c015cc87a
