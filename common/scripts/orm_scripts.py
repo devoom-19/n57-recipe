@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 from blogs.models import BlogCategoryModel, Category, Product
 from decimal import Decimal
 from django.db.models import Q
-=======
+
 from blogs.models import BlogCategoryModel
->>>>>>> 031e4426d2755a8cbeb24e504ca6808c015cc87a
+
 
 
 def run():
@@ -13,15 +13,14 @@ def run():
     # cat1.save()
     # print(cat1)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 031e4426d2755a8cbeb24e504ca6808c015cc87a
+
+
     #BlogCategoryModel.objects.filter(id=1).delete()
 
 
     #BlogCategoryModel.objects.filter(id=1).update(title="nomini o'zgartirish")
-<<<<<<< HEAD
+
     #cat = BlogCategoryModel.objects.get(id=1)
     #cat.title = "nomini o'zgartirish"
     #cat.save()
@@ -83,8 +82,8 @@ def run():
 
     Category.objects.all().delete()
 
-=======
+
     cat = BlogCategoryModel.objects.get(id=1)
     cat.title = "nomini o'zgartirish"
     cat.save()
->>>>>>> 031e4426d2755a8cbeb24e504ca6808c015cc87a
+
